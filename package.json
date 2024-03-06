@@ -31,6 +31,8 @@
     "react-native-auto-height-image": "^3.2.4",
     "react-native-biometrics": "^3.0.1",
     "react-native-deep-linking": "^2.2.0",
+    "react-native-device-info": "^10.13.1",
+    "react-native-dropdown-picker": "^5.4.6",
     "react-native-encrypted-storage": "^4.0.3",
     "react-native-gesture-handler": "^2.15.0",
     "react-native-pusher-push-notifications": "^2.5.2"
