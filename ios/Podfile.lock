@@ -987,6 +987,8 @@ PODS:
   - React-Mapbuffer (0.73.5):
     - glog
     - React-debug
+  - react-native-biometrics (3.0.1):
+    - React-Core
   - react-native-cameraroll (7.4.2):
     - glog
     - RCT-Folly (= 2022.05.16.00)
@@ -1239,6 +1241,7 @@ DEPENDENCIES:
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector-modern`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
   - React-Mapbuffer (from `../node_modules/react-native/ReactCommon`)
+  - react-native-biometrics (from `../node_modules/react-native-biometrics`)
   - "react-native-cameraroll (from `../node_modules/@react-native-camera-roll/camera-roll`)"
   - react-native-encrypted-storage (from `../node_modules/react-native-encrypted-storage`)
   - "react-native-netinfo (from `../node_modules/@react-native-community/netinfo`)"
@@ -1349,6 +1352,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/logger"
   React-Mapbuffer:
     :path: "../node_modules/react-native/ReactCommon"
+  react-native-biometrics:
+    :path: "../node_modules/react-native-biometrics"
   react-native-cameraroll:
     :path: "../node_modules/@react-native-camera-roll/camera-roll"
   react-native-encrypted-storage:
@@ -1454,10 +1459,11 @@ SPEC CHECKSUMS:
   React-jsinspector: 32db5e364bcae8fca8cdf8891830636275add0c5
   React-logger: 0331362115f0f5b392bd7ed14636d1a3ea612479
   React-Mapbuffer: 7c35cd53a22d0be04d3f26f7881c7fb7dd230216
-  react-native-cameraroll: 83a5e02da8f348b987adfdaec87aebb2f8b2322f
-  react-native-encrypted-storage: db300a3f2f0aba1e818417c1c0a6be549038deb7
+  react-native-biometrics: 352e5a794bfffc46a0c86725ea7dc62deb085bdc
+  react-native-cameraroll: f020be2362e05ce0616e33206b3c3c361c09b50e
+  react-native-encrypted-storage: 9220c8a959b2abe4231466bb504158a572168729
   react-native-netinfo: a07d712bcc39cd5e2a8ac7895a5637a57bd2085b
-  react-native-pusher-push-notifications: af265c0048b39a20a27eeaf0047d263d1667bdb6
+  react-native-pusher-push-notifications: 2dbd48c55d715850609619982089ff80b2f97fb9
   React-nativeconfig: 1166714a4f7ea57a0df5c2cb44fbc70f98d580f9
   React-NativeModulesApple: 726664e9829eb5eed8170241000e46ead269a05f
   React-perflogger: 0dd9f1725d55f8264b81efadd373fe1d9cca7dc2
@@ -1478,7 +1484,7 @@ SPEC CHECKSUMS:
   React-runtimescheduler: 814b644a5f456c7df1fba7bcd9914707152527c6
   React-utils: 987a4526a2fc0acdfaf87888adfe0bf9d0452066
   ReactCommon: 2947b0bffd82ea0e58ca7928881152d4c6dae9af
-  RNCAsyncStorage: 10591b9e0a91eaffee14e69b3721009759235125
+  RNCAsyncStorage: 9a368d054cd82af2e9cc8862be344ca647c2e2a2
   RNFBApp: 495bf6662800c670fe8e9629d4de0cba72c78b0a
   RNGestureHandler: 67fb54b3e6ca338a8044e85cd6f340265aa41091
   RNSentry: 6872121e0af7aa9f3f50643f557d69adc8f7ecdc
