@@ -10,7 +10,7 @@ import * as Keychain from 'react-native-keychain';
 // https://github.com/naoufal/react-native-touch-id
 import TouchID from 'react-native-touch-id';
 // https://www.npmjs.com/package/react-native-biometrics
-import ReactNativeBiometrics from 'react-native-biometrics';
+import ReactNativeBiometrics, { BiometryTypes } from 'react-native-biometrics';
 // https://github.com/meinto/react-native-event-listeners
 import { EventRegister } from 'react-native-event-listeners';
 // https://www.npmjs.com/package/react-native-pusher-push-notifications
@@ -1190,9 +1190,6 @@ class AuthContextProvider extends Component {
         return new Promise(( resolve, reject ) => {
             AuthService.login( payload )
                 .then( data => {
-
-                    console.log("HERE IS THE AUTH ERROR! ", data);
-
                     let bridge = data.bridge;
                     let phoenix = data.phoenix;
                     const email = _.get( bridge, 'user.data.email', null );
