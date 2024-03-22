@@ -11,9 +11,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2F0F5EB22BA49B7E00FAAC1E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F0F5EB12BA49B7E00FAAC1E /* GoogleService-Info.plist */; };
+		4E1611A3FF9D2DBB8CCB1978 /* Pods_firebasePusherTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF91A8400817E808039FFA8 /* Pods_firebasePusherTest.framework */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		8669E203BDD0DDBDA7082B42 /* libPods-firebasePusherTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8724359D1253980F1620F1 /* libPods-firebasePusherTest.a */; };
-		DC27BC7B74804BE8FEEE486F /* libPods-firebasePusherTest-firebasePusherTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B45E209EC9053A7B8C11C3 /* libPods-firebasePusherTest-firebasePusherTestTests.a */; };
+		8318A31C517AEDFC0F45D7DC /* Pods_firebasePusherTest_firebasePusherTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34EFF3EE7A953442219BE62D /* Pods_firebasePusherTest_firebasePusherTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +38,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = firebasePusherTest/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = firebasePusherTest/main.m; sourceTree = "<group>"; };
 		21C3A6BB20F25D457CDA799A /* Pods-firebasePusherTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasePusherTest.debug.xcconfig"; path = "Target Support Files/Pods-firebasePusherTest/Pods-firebasePusherTest.debug.xcconfig"; sourceTree = "<group>"; };
+		2F0F5EB12BA49B7E00FAAC1E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		34EFF3EE7A953442219BE62D /* Pods_firebasePusherTest_firebasePusherTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebasePusherTest_firebasePusherTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		578BF1D4C27F6B606C4C931E /* Pods-firebasePusherTest-firebasePusherTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasePusherTest-firebasePusherTestTests.release.xcconfig"; path = "Target Support Files/Pods-firebasePusherTest-firebasePusherTestTests/Pods-firebasePusherTest-firebasePusherTestTests.release.xcconfig"; sourceTree = "<group>"; };
-		69B45E209EC9053A7B8C11C3 /* libPods-firebasePusherTest-firebasePusherTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebasePusherTest-firebasePusherTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = firebasePusherTest/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFF42B750E2B1612FEF7A706 /* Pods-firebasePusherTest-firebasePusherTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasePusherTest-firebasePusherTestTests.debug.xcconfig"; path = "Target Support Files/Pods-firebasePusherTest-firebasePusherTestTests/Pods-firebasePusherTest-firebasePusherTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDF91A8400817E808039FFA8 /* Pods_firebasePusherTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebasePusherTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41516FF4B2DB781837A8B2E /* Pods-firebasePusherTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebasePusherTest.release.xcconfig"; path = "Target Support Files/Pods-firebasePusherTest/Pods-firebasePusherTest.release.xcconfig"; sourceTree = "<group>"; };
-		EB8724359D1253980F1620F1 /* libPods-firebasePusherTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-firebasePusherTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC27BC7B74804BE8FEEE486F /* libPods-firebasePusherTest-firebasePusherTestTests.a in Frameworks */,
+				8318A31C517AEDFC0F45D7DC /* Pods_firebasePusherTest_firebasePusherTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8669E203BDD0DDBDA7082B42 /* libPods-firebasePusherTest.a in Frameworks */,
+				4E1611A3FF9D2DBB8CCB1978 /* Pods_firebasePusherTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				EB8724359D1253980F1620F1 /* libPods-firebasePusherTest.a */,
-				69B45E209EC9053A7B8C11C3 /* libPods-firebasePusherTest-firebasePusherTestTests.a */,
+				DDF91A8400817E808039FFA8 /* Pods_firebasePusherTest.framework */,
+				34EFF3EE7A953442219BE62D /* Pods_firebasePusherTest_firebasePusherTestTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,6 +118,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				2F0F5EB12BA49B7E00FAAC1E /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* firebasePusherTest */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* firebasePusherTestTests */,
@@ -244,6 +247,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				2F0F5EB22BA49B7E00FAAC1E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +487,7 @@
 				DEVELOPMENT_TEAM = GW4NUB2AGL;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = firebasePusherTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,6 +515,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GW4NUB2AGL;
 				INFOPLIST_FILE = firebasePusherTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -576,6 +582,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
@@ -648,6 +665,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
